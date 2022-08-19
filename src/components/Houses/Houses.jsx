@@ -4,7 +4,6 @@ import { getHouses } from "../../redux/actions/actions";
 import HousesCard from "../HouseCard/HousesCard";
 
 const Houses = ({ getHouses, houses }) => {
-  /* const [didFetch, setDidFetch] = useState(false); */
 
 
   useEffect(() => {

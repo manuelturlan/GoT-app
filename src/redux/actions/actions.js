@@ -1,6 +1,7 @@
 import axios from 'axios';
 export const GET_ALL_HOUSES = 'GET_ALL_HOUSES';
 export const CREATE_HOUSE = 'CREATE_HOUSE'
+export const DELETE_HOUSE = 'DELETE_HOUSE'
 
 let fetchingTimes = 0;
 
@@ -26,3 +27,9 @@ export function createHouse(house) {
     }
 }
 
+export function deleteCard(houseId) {
+    return {
+        type: DELETE_HOUSE,
+        payload: houseId
+    }
+}
