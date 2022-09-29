@@ -11,6 +11,9 @@ const Nav = ( props ) => {
         <li>
           <Link to="/house/create">Create House</Link>
         </li>
+        <li>
+          <Link to="/house/create:id">Details</Link>
+        </li>
         {/* <li>Crear nueva "House"</li> */}
       </ul>
     </nav>
